@@ -75,10 +75,16 @@
                         </p>
                     </div>
                 </div>
+                
                 <!-- Reconversion Section Video -->
                 <div class="text-center mt-5">
                     <div class="iframe__container">   
-                        <iframe width="1106" height="622" src="https://www.youtube.com/embed/LrodOup30dE?start=2274" title="La promotion Curie Blue présente ses projets de fin de formation !" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="1106" height="622" src="https://www.youtube.com/embed/LrodOup30dE?start=2274" 
+                            title="La promotion Curie Blue présente ses projets de fin de formation !" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
                     </div>
                     <a class="btn btn-outline-secondary mx-2 mt-4" href="https://youtu.be/LrodOup30dE?t=2275" target="_blanck">
                         <i class="fa-brands fa-youtube"></i>
@@ -86,6 +92,7 @@
                     </a>
                 </div>
             </div>
+
         </section>
         <!-- Portfolio Section -->
         <section class="page-section portfolio bg-secondary bg-gradient" id="portfolio">
@@ -119,6 +126,15 @@
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fa-solid fa-arrows-up-down"></i></div>
                             </div>
                             <img class="img-fluid img-thumbnail border-white" src="assets/img/portfolio/nbss-1.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4 -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fa-solid fa-arrows-up-down"></i></div>
+                            </div>
+                            <img class="img-fluid img-thumbnail border-white" src="assets/img/portfolio/game-of-throne-1.jpg" alt="..." />
                         </div>
                     </div>
                 </div>
@@ -179,7 +195,7 @@
                         <p><em>École O’clock | en téléprésentiel</em></p>
                     <ul>
                         <li>Principales notions enseignées : HTML, CSS, PHP, JavaScript, POO, MVC, SQL, Git, AJAX, API</li>
-                        <li>Spécialisation Symfony, notions principales enseignées : Doctrine, Twig, Debug, Maker, Security, Faker, Form, Serializer, Deploy</li>
+                        <li>Spécialisation Symfony, notions principales enseignées : Doctrine, Twig, Debug, Maker, HttpFoundation, Security, Faker, Form, Serializer, Deploy</li>
                         <li>Méthode de travail Agile</li>
                     </ul>
                 </div>
@@ -315,6 +331,34 @@
                                     <img class="img-fluid img-thumbnail border-secondary mb-5" src="assets/img/portfolio/nbss-4.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text -->
                                     <p class="mb-4">Projet de fin de formation réalisé sur Symfony 5.4 pour NB Services &amp; Soins, vous pouvez retrouver le projet sur <a href="https://github.com/Gatechien/NB-services-et-soins" target="_blanck">Github</a></p>
+                                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title -->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-5">Game of Thrones</h2>
+                                    <!-- Portfolio Modal - Image -->
+                                    <img class="img-fluid img-thumbnail border-secondary mb-5" src="assets/img/portfolio/game-of-throne-1.jpg" alt="..." />
+                                    <img class="img-fluid img-thumbnail border-secondary mb-5" src="assets/img/portfolio/game-of-throne-2.jpg" alt="..." />
+                                    <img class="img-fluid img-thumbnail border-secondary mb-5" src="assets/img/portfolio/game-of-throne-3.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text -->
+                                    <p class="mb-4">Projet personnel réalisé sur Symfony 5.4, vous pouvez retrouver le projet sur <a href="https://github.com/Gatechien/game-of-throne" target="_blanck">Github</a></p>
                                     <button class="btn btn-secondary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Fermer
